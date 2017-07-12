@@ -45,7 +45,7 @@ module AhoyEmail
             ahoy_message.sent_at = Time.now
             ahoy_message.save
           end
-          message["Ahoy-Message-Id"] = nil
+          # message["Ahoy-Message-Id"] = nil
         end
       end
     end
